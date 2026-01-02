@@ -37,11 +37,11 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="flex flex-col items-center gap-6 pt-12">
+        <div className="flex flex-col items-center gap-6 px-5 pt-12">
           <div className="relative">
             <div className="from-pdd-purple/20 to-pdd-blue/20 absolute inset-0 rounded-2xl bg-linear-to-r blur-2xl" />
 
-            <div className="relative flex flex-col items-center gap-5 rounded-2xl border border-white/20 bg-linear-to-br from-white/10 to-white/5 p-7 backdrop-blur-sm">
+            <div className="relative flex max-w-90 flex-col items-center gap-5 rounded-2xl border border-white/20 bg-linear-to-br from-white/10 to-white/5 p-5 backdrop-blur-sm md:p-7">
               <Link
                 href={REGISTRATION_URL}
                 className="shadow-pdd-purple/20 rounded-xl shadow-lg transition-transform duration-300 hover:scale-102"
@@ -51,7 +51,7 @@ const Hero = () => {
                   alt="QR Code Registration Palu Developer Day 2026"
                   width={360}
                   height={360}
-                  className="rounded-lg"
+                  className="w-full rounded-lg"
                 />
               </Link>
 
@@ -60,7 +60,7 @@ const Hero = () => {
                   <QrCode className="text-pdd-purple h-4 w-4" />
                   <p className="font-semibold text-white">Register Now</p>
                 </div>
-                <p className="text-pdd-light/70 text-sm">
+                <p className="text-pdd-light/70 text-sm text-balance">
                   <strong>Scan or click the QR code</strong> to register for the
                   event
                 </p>
