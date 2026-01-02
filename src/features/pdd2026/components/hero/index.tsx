@@ -6,7 +6,7 @@ const REGISTRATION_URL = "https://tally.so/r/pbyyyV";
 
 const Hero = () => {
   return (
-    <section className="mx-auto flex max-w-6xl flex-col items-center justify-center px-5 py-16">
+    <section className="mx-auto flex max-w-6xl flex-col items-center justify-center px-5 pt-12 pb-16">
       <div className="space-y-5 text-center">
         <div className="inline-block">
           <span className="from-pdd-purple to-pdd-blue rounded-full bg-linear-to-r px-4 py-2 text-sm font-semibold text-white">
@@ -41,7 +41,7 @@ const Hero = () => {
           <div className="relative">
             <div className="from-pdd-purple/20 to-pdd-blue/20 absolute inset-0 rounded-2xl bg-linear-to-r blur-2xl" />
 
-            <div className="relative flex max-w-90 flex-col items-center gap-5 rounded-2xl border border-white/20 bg-linear-to-br from-white/10 to-white/5 p-5 backdrop-blur-sm md:p-7">
+            <div className="relative flex flex-col items-center gap-5 rounded-2xl border border-white/20 bg-linear-to-br from-white/10 to-white/5 p-5 backdrop-blur-sm md:p-7">
               <Link
                 href={REGISTRATION_URL}
                 className="shadow-pdd-purple/20 rounded-xl shadow-lg transition-transform duration-300 hover:scale-102"
