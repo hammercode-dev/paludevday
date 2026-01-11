@@ -1,21 +1,21 @@
 import { NavList, RundownList, SpeakerList } from "@/types";
 
 export const navLists: NavList[] = [
-  // {
-  //   id: 1,
-  //   name: "Speakers",
-  //   navigate_url: "#speakers",
-  // },
+  {
+    id: 1,
+    name: "Speakers",
+    navigate_url: "#speakers",
+  },
   // {
   //   id: 2,
   //   name: "Partners",
   //   navigate_url: "#partners",
   // },
-  {
-    id: 3,
-    name: "Speaker",
-    navigate_url: "#speaker-proposal",
-  },
+  // {
+  //   id: 3,
+  //   name: "Speaker",
+  //   navigate_url: "#speaker-proposal",
+  // },
   {
     id: 4,
     name: "Sponsor",
@@ -31,15 +31,11 @@ export const navLists: NavList[] = [
 export const speakerLists: SpeakerList[] = [
   {
     id: 1,
-    name: "Rian Apriansyah",
-    role: "Software Engineer at Unit4",
-    img: "/assets/images/rian.png",
-  },
-  {
-    id: 2,
-    name: "Fendi Irfan Amorokhman",
-    role: "Data Engineer at OY Indonesia",
-    img: "/assets/images/fandi.png",
+    name: "Anugerah Aidin Yotolembah",
+    role: "AI/ML Engineer",
+    img: "/speakers/speaker1.jpeg",
+    title: "Guardiant of Automation : AI Agent Assemble",
+    companyLogo: "/companies/lintasarta.png"
   },
 ];
 

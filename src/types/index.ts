@@ -9,6 +9,8 @@ export type SpeakerList = {
   name: string;
   role: string;
   img: string;
+  title?: string;
+  companyLogo: string;
 };
 
 export type RundownList = {
