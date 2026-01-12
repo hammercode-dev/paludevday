@@ -32,7 +32,7 @@ const Speakers = () => {
             {speakerLists.map((item, index) => (
               <div
                 key={item.id}
-                className="group relative w-96 overflow-hidden shadow-2xl transition-all duration-300"
+                className="group relative w-96 overflow-hidden rounded-lg shadow-2xl transition-all duration-300"
               >
                 <div className="relative h-full min-h-125 overflow-hidden bg-black/20 md:min-h-137.5">
                   <Image
