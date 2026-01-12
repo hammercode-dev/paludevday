@@ -34,7 +34,7 @@ const Speakers = () => {
                 key={item.id}
                 className="group relative w-96 overflow-hidden rounded-lg shadow-2xl transition-all duration-300"
               >
-                <div className="relative h-full min-h-125 overflow-hidden bg-black/20 md:min-h-137.5">
+                <div className="relative h-full min-h-125 overflow-hidden bg-black/20 md:min-h-135">
                   <Image
                     src={item.img}
                     alt={item.name}
@@ -45,11 +45,11 @@ const Speakers = () => {
 
                   <div
                     className={`absolute inset-0 bg-linear-to-br ${colorVariants[index % colorVariants.length]} opacity-70 mix-blend-multiply transition-opacity duration-300 group-hover:opacity-60`}
-                  ></div>
+                  />
 
                   <div className="absolute inset-0 bg-linear-to-t from-black/70 via-black/30 to-transparent"></div>
 
-                  <div className="absolute inset-0 bg-[repeating-linear-gradient(0deg,rgba(255,255,255,0.03)_0px,rgba(255,255,255,0.03)_2px,transparent_2px,transparent_4px)]"></div>
+                  <div className="absolute inset-0 bg-[repeating-linear-gradient(0deg,rgba(255,255,255,0.03)_0px,rgba(255,255,255,0.03)_2px,transparent_2px,transparent_4px)]" />
 
                   <div className="relative flex h-full flex-col justify-between p-6 md:p-8">
                     <Image

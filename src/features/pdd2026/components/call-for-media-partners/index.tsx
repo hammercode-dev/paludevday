@@ -1,5 +1,6 @@
 "use client";
 
+import { Button } from "@/components/ui/button";
 import { Radio } from "lucide-react";
 
 const CallForMediaPartners = () => {
@@ -47,13 +48,12 @@ Thank you!`;
         </div>
 
         <div className="text-center">
-          <button
+          <Button
+            icon={<Radio className="h-5 w-5" />}
             onClick={handleEmailClick}
-            className="group from-pdd-purple hover:from-pdd-purple/90 hover:shadow-pdd-purple/50 to-pdd-blue hover:to-pdd-blue/90 relative inline-flex transform items-center gap-3 rounded-lg bg-linear-to-r px-8 py-4 font-semibold text-white transition-all duration-300 hover:scale-105 hover:shadow-xl"
           >
-            <Radio className="h-5 w-5" />
             <span>Become a Media Partner</span>
-          </button>
+          </Button>
           <p className="text-pdd-light/60 mt-4 text-sm">
             Partner with us to spread the word
           </p>

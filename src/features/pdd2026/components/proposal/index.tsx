@@ -1,5 +1,6 @@
 "use client";
 
+import { Button } from "@/components/ui/button";
 import { Mic } from "lucide-react";
 
 const Proposal = () => {
@@ -46,13 +47,9 @@ Thank you!`;
         </div>
 
         <div className="mb-12 text-center">
-          <button
-            onClick={handleEmailClick}
-            className="group from-pdd-purple hover:from-pdd-purple/90 hover:shadow-pdd-purple/50 to-pdd-blue hover:to-pdd-blue/90 relative inline-flex transform items-center gap-3 rounded-lg bg-linear-to-r px-8 py-4 font-semibold text-white transition-all duration-300 hover:scale-105 hover:shadow-xl"
-          >
-            <Mic className="h-5 w-5" />
+          <Button icon={<Mic className="h-5 w-5" />} onClick={handleEmailClick}>
             <span>Submit Your Proposal</span>
-          </button>
+          </Button>
           <p className="text-pdd-light/60 mt-4 text-sm">
             Click to send your proposal via email
           </p>
