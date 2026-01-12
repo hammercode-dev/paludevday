@@ -2,7 +2,7 @@ import { Fragment } from "react";
 import Hero from "./components/hero";
 import About from "./components/about";
 import Speakers from "./components/speakers";
-import SpeakersProposal from "./components/speakers-proposal";
+import Proposal from "./components/proposal";
 import CallForSponsors from "./components/call-for-sponsors";
 import CallForMediaPartners from "./components/call-for-media-partners";
 
@@ -12,7 +12,7 @@ const Pdd2026 = () => {
       <Hero />
       <About />
       <Speakers />
-      <SpeakersProposal />
+      <Proposal />
       <CallForSponsors />
       <CallForMediaPartners />
     </Fragment>

@@ -2,7 +2,7 @@
 
 import { Mic } from "lucide-react";
 
-const SpeakersProposal = () => {
+const Proposal = () => {
   const handleEmailClick = () => {
     const email = "hammercode28@gmail.com";
     const subject = "Speaker Proposal - PDD 2026";
@@ -62,4 +62,4 @@ Thank you!`;
   );
 };
 
-export default SpeakersProposal;
+export default Proposal;
