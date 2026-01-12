@@ -21,7 +21,9 @@ const Speakers = () => {
             </span>
           </h2>
           <p className="text-pdd-light/80 mx-auto max-w-3xl text-lg md:text-xl">
-            Explore inspiring talks and cutting-edge insights from leading voices at Palu Developer Day. Discover our lineup of speakers for this year's event!
+            Explore inspiring talks and cutting-edge insights from leading
+            voices at Palu Developer Day. Discover our lineup of speakers for
+            this year&apos;s event!
           </p>
         </div>
 
@@ -32,7 +34,7 @@ const Speakers = () => {
                 key={item.id}
                 className="group relative w-96 overflow-hidden shadow-2xl transition-all duration-300"
               >
-                <div className="relative h-full min-h-[500px] overflow-hidden bg-black/20 md:min-h-[550px]">
+                <div className="relative h-full min-h-125 overflow-hidden bg-black/20 md:min-h-137.5">
                   <Image
                     src={item.img}
                     alt={item.name}
@@ -42,10 +44,10 @@ const Speakers = () => {
                   />
 
                   <div
-                    className={`absolute inset-0 bg-gradient-to-br ${colorVariants[index % colorVariants.length]} opacity-70 mix-blend-multiply transition-opacity duration-300 group-hover:opacity-60`}
+                    className={`absolute inset-0 bg-linear-to-br ${colorVariants[index % colorVariants.length]} opacity-70 mix-blend-multiply transition-opacity duration-300 group-hover:opacity-60`}
                   ></div>
 
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent"></div>
+                  <div className="absolute inset-0 bg-linear-to-t from-black/70 via-black/30 to-transparent"></div>
 
                   <div className="absolute inset-0 bg-[repeating-linear-gradient(0deg,rgba(255,255,255,0.03)_0px,rgba(255,255,255,0.03)_2px,transparent_2px,transparent_4px)]"></div>
 
@@ -60,7 +62,7 @@ const Speakers = () => {
 
                     <div className="space-y-4">
                       <div className="space-y-2">
-                        <h3 className="text-2xl font-bold text-white transition-all duration-300 group-hover:bg-gradient-to-r md:text-3xl">
+                        <h3 className="text-2xl font-bold text-white transition-all duration-300 group-hover:bg-linear-to-r md:text-3xl">
                           {item.name}
                         </h3>
                         <div className="flex items-center gap-2">
