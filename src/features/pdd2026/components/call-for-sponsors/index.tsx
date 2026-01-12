@@ -1,6 +1,17 @@
 "use client";
 
-import { Award, Check, Cog, HeartHandshake, ShieldCheck } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import {
+  Award,
+  Check,
+  Cog,
+  ExternalLink,
+  FileText,
+  HeartHandshake,
+  ShieldCheck,
+} from "lucide-react";
+
+const PROPOSAL_FILE = "/assets/proposal/pdd2026-proposal.pdf";
 
 const CallForSponsors = () => {
   const handleEmailClick = () => {
@@ -94,6 +105,14 @@ Thank you!`;
             Connect with hundreds of developers, designers, and tech
             enthusiasts. Choose the tier that fits your brand&apos;s goals.
           </p>
+          <Button
+            icon={<FileText className="h-5 w-5" />}
+            onClick={() =>
+              window.open(PROPOSAL_FILE, "_blank", "noopener,noreferrer")
+            }
+          >
+            View Proposal
+          </Button>
         </div>
 
         <div className="mx-auto grid max-w-6xl gap-8 lg:grid-cols-3 lg:items-center">
@@ -112,7 +131,6 @@ Thank you!`;
                 </div>
               )}
 
-              {/* Header */}
               <div className="flex items-center justify-between">
                 <div
                   className={`rounded-xl p-3 ${
