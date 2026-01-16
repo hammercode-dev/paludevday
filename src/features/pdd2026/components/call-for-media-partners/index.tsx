@@ -30,14 +30,15 @@ Thank you!`;
 
   return (
     <div id="media-partner" className="scroll-mt-20 py-24">
-      <div className="mx-auto max-w-6xl p-5">
-        <div className="mb-12 text-center">
-          <h2 className="mb-4 text-3xl font-bold md:text-5xl">
+      <div className="mx-auto max-w-6xl space-y-12 p-5">
+        <div className="space-y-4 text-center">
+          <h2 className="text-3xl font-bold md:text-5xl">
             Media{" "}
             <span className="from-pdd-purple to-pdd-blue bg-linear-to-r bg-clip-text text-transparent">
               Partnership
             </span>
           </h2>
+
           <p className="text-pdd-light/80 mx-auto max-w-3xl text-lg md:text-xl">
             Join us as a media partner to cover the biggest developer conference
             in Palu City and amplify the voice of tech community.
