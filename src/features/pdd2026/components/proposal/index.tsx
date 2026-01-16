@@ -1,7 +1,7 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import { Mic } from "lucide-react";
+import { MicrophoneIcon } from "@phosphor-icons/react/dist/ssr";
 
 const Proposal = () => {
   const handleEmailClick = () => {
@@ -47,7 +47,10 @@ Thank you!`;
         </div>
 
         <div className="mb-12 text-center">
-          <Button icon={<Mic className="h-5 w-5" />} onClick={handleEmailClick}>
+          <Button
+            icon={<MicrophoneIcon className="h-5 w-5" />}
+            onClick={handleEmailClick}
+          >
             <span>Submit Your Proposal</span>
           </Button>
           <p className="text-pdd-light/60 mt-4 text-sm">

@@ -2,14 +2,13 @@
 
 import { Button } from "@/components/ui/button";
 import {
-  Award,
-  Check,
-  Cog,
-  ExternalLink,
-  FileText,
-  HeartHandshake,
-  ShieldCheck,
-} from "lucide-react";
+  MedalIcon,
+  CheckIcon,
+  GearIcon,
+  FileTextIcon,
+  HandshakeIcon,
+  ShieldCheckIcon,
+} from "@phosphor-icons/react/dist/ssr";
 
 const PROPOSAL_FILE = "/assets/proposal/pdd2026-proposal.pdf";
 
@@ -40,7 +39,7 @@ Thank you!`;
 
   const tiers = [
     {
-      icon: <Cog className="h-6 w-6" />,
+      icon: <GearIcon className="h-6 w-6" />,
       name: "Automator",
       subtitle: "Silver Tier",
       price: "High Visibility",
@@ -55,7 +54,7 @@ Thank you!`;
       ],
     },
     {
-      icon: <ShieldCheck className="h-8 w-8" />,
+      icon: <ShieldCheckIcon className="h-8 w-8" />,
       name: "AI Guardian",
       subtitle: "Platinum Tier",
       price: "Premium Partner",
@@ -73,7 +72,7 @@ Thank you!`;
       ],
     },
     {
-      icon: <HeartHandshake className="h-6 w-6" />,
+      icon: <HandshakeIcon className="h-6 w-6" />,
       name: "Supporter",
       subtitle: "Bronze Tier",
       price: "Community Support",
@@ -106,7 +105,7 @@ Thank you!`;
             enthusiasts. Choose the tier that fits your brand&apos;s goals.
           </p>
           <Button
-            icon={<FileText className="h-5 w-5" />}
+            icon={<FileTextIcon className="h-5 w-5" />}
             onClick={() =>
               window.open(PROPOSAL_FILE, "_blank", "noopener,noreferrer")
             }
@@ -166,7 +165,7 @@ Thank you!`;
                     <div
                       className={`rounded-full p-0.5 ${tier.highlight ? "bg-linear-to-br from-purple-500/20 to-blue-500/20 text-purple-400" : "bg-white/10 text-white"}`}
                     >
-                      <Check className="h-3 w-3" />
+                      <CheckIcon className="h-3 w-3" />
                     </div>
                     <span className="text-sm leading-relaxed">{feature}</span>
                   </li>
@@ -194,7 +193,7 @@ Thank you!`;
             className="group relative inline-flex cursor-pointer items-center gap-3 overflow-hidden rounded-full bg-white/10 px-8 py-4 font-semibold text-white backdrop-blur transition-all duration-300 hover:scale-105 hover:bg-white/20"
           >
             <div className="from-pdd-purple/20 to-pdd-blue/20 absolute inset-0 -z-10 bg-linear-to-r opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
-            <Award className="h-5 w-5" />
+            <MedalIcon className="h-5 w-5" />
             <span>Contact Us for Custom Packages</span>
           </button>
         </div>

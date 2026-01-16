@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import Image from "next/image";
-import { Menu } from "lucide-react";
+import { ListIcon } from "@phosphor-icons/react/dist/ssr";
 
 type SidebarToggleProps = {
   setShowSidebar: (show: boolean) => void;
@@ -42,7 +42,7 @@ const SidebarToggle = ({ setShowSidebar }: SidebarToggleProps) => {
         className="rounded-md border border-white/60 px-2 py-1"
         onClick={() => setShowSidebar(true)}
       >
-        <Menu className="size-5 text-white/60" />
+        <ListIcon className="size-5 text-white/60" />
       </button>
     </div>
   );

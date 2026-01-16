@@ -1,5 +1,9 @@
 import { speakerLists } from "@/constants";
-import { Calendar, MapPin, QrCode } from "lucide-react";
+import {
+  CalendarIcon,
+  MapPinIcon,
+  QrCodeIcon,
+} from "@phosphor-icons/react/dist/ssr";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -38,11 +42,11 @@ const Hero = () => {
 
         <div className="flex flex-wrap justify-center gap-6 pt-4 md:gap-8">
           <div className="text-pdd-purple flex items-center gap-2">
-            <Calendar className="h-5 w-5" />
+            <CalendarIcon className="h-5 w-5" />
             <span className="text-sm md:text-base">2026</span>
           </div>
           <div className="text-pdd-blue flex items-center gap-2">
-            <MapPin className="h-5 w-5" />
+            <MapPinIcon className="h-5 w-5" />
             <span className="text-sm md:text-base">Palu City</span>
           </div>
         </div>
@@ -67,7 +71,7 @@ const Hero = () => {
 
               <div className="space-y-2 text-center">
                 <div className="flex items-center justify-center gap-2">
-                  <QrCode className="text-pdd-purple h-4 w-4" />
+                  <QrCodeIcon className="text-pdd-purple h-4 w-4" />
                   <p className="font-semibold text-white">Register Now</p>
                 </div>
                 <p className="text-pdd-light/70 text-sm text-balance">

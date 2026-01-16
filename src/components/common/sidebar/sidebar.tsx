@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { X } from "lucide-react";
+import { XIcon } from "@phosphor-icons/react/dist/ssr";
 import SidebarItem from "./sidebar-item";
 import SidebarOverlay from "./sidebar-overlay";
 import SidebarToggle from "./sidebar-toggle";
@@ -21,7 +21,7 @@ const Sidebar = () => {
             className="rounded-md border border-white/60 p-1"
             onClick={() => setShowSidebar(false)}
           >
-            <X className="size-5 text-white/60" />
+            <XIcon className="size-5 text-white/60" />
           </button>
         </div>
         <SidebarItem setShowSidebar={setShowSidebar} />

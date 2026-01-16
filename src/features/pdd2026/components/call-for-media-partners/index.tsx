@@ -1,7 +1,7 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import { Radio } from "lucide-react";
+import { BroadcastIcon } from "@phosphor-icons/react/dist/ssr";
 
 const CallForMediaPartners = () => {
   const handleEmailClick = () => {
@@ -49,7 +49,7 @@ Thank you!`;
 
         <div className="text-center">
           <Button
-            icon={<Radio className="h-5 w-5" />}
+            icon={<BroadcastIcon className="h-5 w-5" />}
             onClick={handleEmailClick}
           >
             <span>Become a Media Partner</span>

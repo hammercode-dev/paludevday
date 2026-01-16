@@ -35,7 +35,7 @@ export const speakerLists: SpeakerList[] = [
     role: "AI/ML Engineer",
     img: "/speakers/speaker1.jpeg",
     title: "Guardiant of Automation : AI Agent Assemble",
-    companyLogo: "/companies/lintasarta.png"
+    companyLogo: "/companies/lintasarta.png",
   },
 ];
 
