@@ -3,6 +3,7 @@ import { Sora } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/common/navbar";
 import Sidebar from "@/components/common/sidebar/sidebar";
+import Footer from "@/components/common/footer";
 import { ShootingStars } from "@/components/ui/shooting-stars";
 import { StarsBackground } from "@/components/ui/stars-background";
 
@@ -33,6 +34,7 @@ export default function RootLayout({
           <ShootingStars />
           <StarsBackground />
         </div>
+        <Footer />
       </body>
     </html>
   );
