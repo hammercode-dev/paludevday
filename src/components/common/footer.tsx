@@ -46,14 +46,14 @@ const Footer = () => {
 
       <div className="mx-auto max-w-6xl px-5">
         <div className="flex flex-col items-start justify-between gap-10 md:flex-row md:gap-0">
-          <div className="max-w-md">
-            <Link href="/" className="mb-6 inline-block">
+          <div className="max-w-md space-y-6">
+            <Link href="/" className="inline-block">
               <Image
                 src="/assets/logos/ic_pdd26.svg"
                 alt="Palu Developer Day 2026"
                 width={60}
                 height={60}
-                className="h-12 w-auto md:h-16"
+                className="h-12 w-auto filter-[drop-shadow(0_0_15px_rgba(216,126,255,0.4))] md:h-16"
               />
             </Link>
 
@@ -72,11 +72,12 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="md:text-right">
-            <h4 className="mb-4 text-lg font-semibold text-white">
-              Contact Us
-            </h4>
-            <p className="text-pdd-light/70 mb-2 text-sm">Have questions?</p>
+          <div className="space-y-2 md:text-right">
+            <div className="space-y-4">
+              <h4 className="text-lg font-semibold text-white">Contact Us</h4>
+              <p className="text-pdd-light/70 text-sm">Have questions?</p>
+            </div>
+
             <a
               href={`mailto:${EMAIL}`}
               className="from-pdd-purple to-pdd-blue bg-linear-to-r bg-clip-text font-medium text-transparent"

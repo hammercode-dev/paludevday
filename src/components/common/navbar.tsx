@@ -37,7 +37,7 @@ const Navbar = () => {
               alt="pdd-2024-logo"
               width={42}
               height={42}
-              className="md:h-14 md:w-14"
+              className="filter-[drop-shadow(0_0_12px_rgba(216,126,255,0.3))] md:h-14 md:w-14"
             />
           </Link>
 
