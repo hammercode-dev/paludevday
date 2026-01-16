@@ -30,7 +30,7 @@ Thank you!`;
 
   return (
     <div id="media-partner" className="scroll-mt-20 py-24">
-      <div className="mx-auto max-w-6xl px-5">
+      <div className="mx-auto max-w-6xl p-5">
         <div className="mb-12 text-center">
           <h2 className="mb-4 text-3xl font-bold md:text-5xl">
             Media{" "}
