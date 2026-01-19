@@ -1,0 +1,62 @@
+const EMAIL = "paludevday@gmail.com";
+const REGISTRATION_URL = "https://tally.so/r/pbyyyV";
+const PROPOSAL_FILE = "/assets/proposal/pdd2026-proposal.pdf";
+
+const MEDIA_PARTNER_SUBJECT = "Media Partnership Inquiry - PDD 2026";
+const MEDIA_PARTNER_BODY = `Hello PDD 2026 Team,
+
+I am interested in becoming a media partner for PDD 2026.
+
+Organization Name:
+Contact Person:
+Email:
+Phone Number:
+Type of Media (Blog/Podcast/YouTube/Community/etc):
+Audience Reach & Description:
+
+Please send me more information about media partnership opportunities.
+
+Thank you!`;
+
+const SPONSOR_SUBJECT = "Sponsorship Inquiry - PDD 2026";
+const SPONSOR_BODY = `Hello PDD 2026 Team,
+
+I am interested in becoming a sponsor for PDD 2026.
+
+Company Name:
+Contact Person:
+Email:
+Phone Number:
+Preferred Sponsorship Level (Platinum/Silver/Bronze):
+Brief Company Description:
+
+Please send me more information about sponsorship packages.
+
+Thank you!`;
+
+const PROPOSAL_SUBJECT = "Speaker Proposal - PDD 2026";
+const PROPOSAL_BODY = `Hello PDD 2026 Team,
+
+I would like to submit a speaker proposal for PDD 2026.
+
+Full Name:
+Email:
+Phone Number:
+Area of Expertise:
+Proposed Topic:
+Brief Bio:
+LinkedIn Profile (optional):
+
+Thank you!`;
+
+export {
+  EMAIL,
+  REGISTRATION_URL,
+  PROPOSAL_FILE,
+  MEDIA_PARTNER_SUBJECT,
+  MEDIA_PARTNER_BODY,
+  SPONSOR_SUBJECT,
+  SPONSOR_BODY,
+  PROPOSAL_SUBJECT,
+  PROPOSAL_BODY,
+};

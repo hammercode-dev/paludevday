@@ -7,6 +7,7 @@ import {
   GithubLogoIcon,
   YoutubeLogoIcon,
 } from "@phosphor-icons/react/dist/ssr";
+import { EMAIL } from "@/features/pdd2026/constants";
 
 const SOCIALS = [
   {
@@ -35,8 +36,6 @@ const SOCIALS = [
     icon: GithubLogoIcon,
   },
 ];
-
-const EMAIL = "hammercode28@gmail.com";
 
 const Footer = () => {
   return (

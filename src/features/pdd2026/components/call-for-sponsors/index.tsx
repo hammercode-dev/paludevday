@@ -2,6 +2,11 @@
 
 import { Button } from "@/components/ui/button";
 import {
+  EMAIL,
+  SPONSOR_BODY,
+  SPONSOR_SUBJECT,
+} from "@/features/pdd2026/constants";
+import {
   MedalIcon,
   CheckIcon,
   GearIcon,
@@ -14,26 +19,9 @@ const PROPOSAL_FILE = "/assets/proposal/pdd2026-proposal.pdf";
 
 const CallForSponsors = () => {
   const handleEmailClick = () => {
-    const email = "hammercode28@gmail.com";
-    const subject = "Sponsorship Inquiry - PDD 2026";
-    const body = `Hello PDD 2026 Team,
-
-I am interested in becoming a sponsor for PDD 2026.
-
-Company Name:
-Contact Person:
-Email:
-Phone Number:
-Preferred Sponsorship Level (Platinum/Silver/Bronze):
-Brief Company Description:
-
-Please send me more information about sponsorship packages.
-
-Thank you!`;
-
-    const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(
-      subject
-    )}&body=${encodeURIComponent(body)}`;
+    const mailtoLink = `mailto:${EMAIL}?subject=${encodeURIComponent(
+      SPONSOR_SUBJECT
+    )}&body=${encodeURIComponent(SPONSOR_BODY)}`;
     window.location.href = mailtoLink;
   };
 

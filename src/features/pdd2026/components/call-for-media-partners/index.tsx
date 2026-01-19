@@ -1,30 +1,18 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
+import {
+  EMAIL,
+  MEDIA_PARTNER_BODY,
+  MEDIA_PARTNER_SUBJECT,
+} from "@/features/pdd2026/constants";
 import { BroadcastIcon } from "@phosphor-icons/react/dist/ssr";
 
 const CallForMediaPartners = () => {
   const handleEmailClick = () => {
-    const email = "hammercode28@gmail.com";
-    const subject = "Media Partnership Inquiry - PDD 2026";
-    const body = `Hello PDD 2026 Team,
-
-I am interested in becoming a media partner for PDD 2026.
-
-Organization Name:
-Contact Person:
-Email:
-Phone Number:
-Type of Media (Blog/Podcast/YouTube/Community/etc):
-Audience Reach & Description:
-
-Please send me more information about media partnership opportunities.
-
-Thank you!`;
-
-    const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(
-      subject
-    )}&body=${encodeURIComponent(body)}`;
+    const mailtoLink = `mailto:${EMAIL}?subject=${encodeURIComponent(
+      MEDIA_PARTNER_SUBJECT
+    )}&body=${encodeURIComponent(MEDIA_PARTNER_BODY)}`;
     window.location.href = mailtoLink;
   };
 

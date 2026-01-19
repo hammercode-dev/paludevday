@@ -1,29 +1,16 @@
-"use client";
-
 import { Button } from "@/components/ui/button";
+import {
+  EMAIL,
+  PROPOSAL_BODY,
+  PROPOSAL_SUBJECT,
+} from "@/features/pdd2026/constants";
 import { MicrophoneIcon } from "@phosphor-icons/react/dist/ssr";
 
 const Proposal = () => {
   const handleEmailClick = () => {
-    const email = "hammercode28@gmail.com";
-    const subject = "Speaker Proposal - PDD 2026";
-    const body = `Hello PDD 2026 Team,
-
-I would like to submit a speaker proposal for PDD 2026.
-
-Full Name:
-Email:
-Phone Number:
-Area of Expertise:
-Proposed Topic:
-Brief Bio:
-LinkedIn Profile (optional):
-
-Thank you!`;
-
-    const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(
-      subject
-    )}&body=${encodeURIComponent(body)}`;
+    const mailtoLink = `mailto:${EMAIL}?subject=${encodeURIComponent(
+      PROPOSAL_SUBJECT
+    )}&body=${encodeURIComponent(PROPOSAL_BODY)}`;
     window.location.href = mailtoLink;
   };
 

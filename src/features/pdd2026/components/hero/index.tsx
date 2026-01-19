@@ -1,4 +1,5 @@
 import { speakerLists } from "@/constants";
+import { REGISTRATION_URL } from "@/features/pdd2026/constants";
 import {
   CalendarIcon,
   MapPinIcon,
@@ -6,8 +7,6 @@ import {
 } from "@phosphor-icons/react/dist/ssr";
 import Image from "next/image";
 import Link from "next/link";
-
-const REGISTRATION_URL = "https://tally.so/r/pbyyyV";
 
 const Hero = () => {
   return (
