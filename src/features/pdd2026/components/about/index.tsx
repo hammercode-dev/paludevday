@@ -31,8 +31,8 @@ const About = () => {
             </div>
 
             <p className="text-pdd-light/80 max-w-4xl leading-relaxed md:text-lg">
-              <span className="text-pdd-purple">Palu Developer Day</span> aims
-              to inspire the young generation of Palu City in the field of
+              <span className="pdd2026-gradient-text">Palu Developer Day</span>{" "}
+              aims to inspire the young generation of Palu City in the field of
               software engineering and technological creativity. The event
               brings together professionals and industry experts to share
               knowledge and the latest trends. bringing together developers,
