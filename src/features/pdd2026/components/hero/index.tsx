@@ -50,7 +50,7 @@ const Hero = () => {
 
         <div className="flex flex-col items-center gap-6 px-5 pt-12">
           <div className="relative">
-            <div className="pdd2026-gradient bg-opacity-20 absolute inset-0 rounded-2xl blur-2xl" />
+            <div className="from-pdd-purple/20 to-pdd-blue/20 absolute inset-0 rounded-2xl bg-linear-to-r blur-2xl" />
 
             <div className="relative flex flex-col items-center gap-5 rounded-2xl border border-white/20 bg-linear-to-br from-white/10 to-white/5 p-5 backdrop-blur-sm md:p-7">
               <Link
