@@ -47,8 +47,7 @@ const CallForSponsors = () => {
       subtitle: "Platinum Tier",
       price: "Premium Partner",
       highlight: true,
-      color:
-        "from-pdd-purple to-pdd-blue bg-linear-to-r bg-clip-text text-transparent",
+      color: "pdd2026-gradient-text",
       accent:
         "shadow-purple-500/20 border-purple-500/50 bg-linear-to-br from-purple-500/10 to-blue-500/10",
       features: [
@@ -83,10 +82,7 @@ const CallForSponsors = () => {
       <div className="mx-auto max-w-7xl space-y-12 px-5 md:space-y-24">
         <div className="space-y-6 text-center">
           <h2 className="text-4xl font-bold tracking-tight md:text-5xl lg:text-6xl">
-            Sponsor{" "}
-            <span className="from-pdd-purple to-pdd-blue bg-linear-to-r bg-clip-text text-transparent">
-              PDD 2026
-            </span>
+            Sponsor <span className="pdd2026-gradient-text">PDD 2026</span>
           </h2>
           <p className="text-pdd-light/70 mx-auto max-w-2xl text-lg">
             Connect with hundreds of developers, designers, and tech

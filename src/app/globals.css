@@ -36,6 +36,18 @@
   }
 }
 
+@utility pdd2026-gradient {
+  @apply from-pdd-purple to-pdd-blue bg-linear-to-r;
+}
+
+@utility pdd2026-gradient-text {
+  @apply pdd2026-gradient bg-clip-text text-transparent;
+}
+
+@utility pdd2026-gradient-btn {
+  @apply pdd2026-gradient hover:from-pdd-purple/90 hover:to-pdd-blue/90 hover:shadow-pdd-purple/50 text-white transition-all duration-300 hover:scale-105 hover:shadow-lg;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -45,29 +57,14 @@ body {
   color: #ffffff;
 }
 
-.gradient-text {
-  background: linear-gradient(to bottom, #e8e8e8, #d87eff, #026ee6, #1556b9);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-emphasis-color: transparent;
+/* Cursor pointer for buttons */
+button:not(:disabled),
+[role="button"]:not(:disabled) {
+  cursor: pointer;
 }
 
-.gradient-text-horizontal {
-  background: linear-gradient(to right, #d87eff, #026ee6);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-emphasis-color: transparent;
-}
-
-.pdd2026-gradient-bg {
-  background: linear-gradient(to bottom, #e8e8e8, #d87eff, #026ee6, #1556b9);
-}
-
-.glass-effect {
-  box-shadow: 0 8px 32px 0 rgba(20, 25, 85, 0.2);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+/* Cursor pointer for links */
+a:not(:disabled),
+[role="link"]:not(:disabled) {
+  cursor: pointer;
 }
