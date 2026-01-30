@@ -76,10 +76,10 @@ const CallForSponsors = () => {
   ];
 
   return (
-    <div id="sponsor" className="relative scroll-mt-20 overflow-hidden py-24">
+    <div id="sponsor" className="relative scroll-mt-20 overflow-hidden">
       <div className="bg-pdd-purple/20 absolute top-1/2 left-1/2 -z-10 h-125 w-125 -translate-x-1/2 -translate-y-1/2 rounded-full blur-[120px]" />
 
-      <div className="mx-auto max-w-7xl space-y-12 px-5 md:space-y-24">
+      <div className="mx-auto max-w-6xl space-y-12 px-5 md:space-y-24">
         <div className="space-y-6 text-center">
           <h2 className="text-4xl font-bold tracking-tight md:text-5xl lg:text-6xl">
             Sponsor <span className="pdd2026-gradient-text">PDD 2026</span>

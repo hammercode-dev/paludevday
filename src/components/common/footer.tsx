@@ -39,7 +39,7 @@ const SOCIALS = [
 
 const Footer = () => {
   return (
-    <footer className="bg-primaryBlack-900 relative overflow-hidden border-t border-white/10 pt-16 pb-8">
+    <footer className="bg-primaryBlack-900 relative mt-16 overflow-hidden border-t border-white/10 pt-16 pb-8 md:mt-24">
       <div className="bg-pdd-purple/10 absolute top-0 left-1/4 -z-10 h-64 w-64 rounded-full blur-[100px]" />
       <div className="bg-pdd-blue/10 absolute right-1/4 bottom-0 -z-10 h-64 w-64 rounded-full blur-[100px]" />
 

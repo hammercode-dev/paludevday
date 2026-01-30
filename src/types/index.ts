@@ -47,3 +47,20 @@ export type MediaPartnerProposal = {
   mediaType: string;
   reachDescription: string;
 };
+
+export type Sponsor = {
+  name: string;
+  logo: string;
+};
+
+export type SponsorTier = {
+  name: string;
+  color: string;
+  glow: string;
+  sponsors: Sponsor[];
+};
+
+export type MediaPartner = {
+  name: string;
+  logo: string;
+};

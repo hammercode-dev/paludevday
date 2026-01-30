@@ -17,14 +17,14 @@ const CallForMediaPartners = () => {
   };
 
   return (
-    <div id="media-partner" className="scroll-mt-20 py-24">
+    <div id="media-partner" className="scroll-mt-20">
       <div className="mx-auto max-w-6xl space-y-12 p-5">
         <div className="space-y-4 text-center">
           <h2 className="text-3xl font-bold md:text-5xl">
             Media <span className="pdd2026-gradient-text">Partnership</span>
           </h2>
 
-          <p className="text-pdd-light/80 mx-auto max-w-3xl text-lg md:text-xl">
+          <p className="text-pdd-light/70 mx-auto max-w-2xl text-lg">
             Join us as a media partner to cover the biggest developer conference
             in Palu City and amplify the voice of tech community.
           </p>

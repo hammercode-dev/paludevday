@@ -11,16 +11,16 @@ const colorVariants = [
 
 const Speakers = () => {
   return (
-    <div id="speakers" className="w-full py-24">
+    <div id="speakers" className="w-full">
       <div className="mx-auto max-w-7xl space-y-12 px-5">
         <div className="mb-12 text-center">
           <h2 className="mb-4 text-3xl font-bold md:text-5xl">
             Meet Our <span className="pdd2026-gradient-text">Speakers</span>
           </h2>
-          <p className="text-pdd-light/80 mx-auto max-w-3xl text-lg md:text-xl">
-            Explore inspiring talks and cutting-edge insights from leading
-            voices at Palu Developer Day. Discover our lineup of speakers for
-            this year&apos;s event!
+          <p className="text-pdd-light/70 mx-auto max-w-2xl text-lg">
+            Explore inspiring talks and cutting-edge insights shaping modern
+            tech landscape. Discover our lineup of speakers for this year&apos;s
+            event!
           </p>
         </div>
 
