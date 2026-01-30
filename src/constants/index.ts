@@ -6,25 +6,10 @@ export const navLists: NavList[] = [
     name: "Speakers",
     navigate_url: "#speakers",
   },
-  // {
-  //   id: 2,
-  //   name: "Partners",
-  //   navigate_url: "#partners",
-  // },
-  // {
-  //   id: 3,
-  //   name: "Speaker",
-  //   navigate_url: "#speaker-proposal",
-  // },
   {
-    id: 4,
-    name: "Sponsor",
-    navigate_url: "#sponsor",
-  },
-  {
-    id: 5,
-    name: "Media Partner",
-    navigate_url: "#media-partner",
+    id: 2,
+    name: "Support",
+    navigate_url: "#support",
   },
 ];
 

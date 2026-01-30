@@ -1,20 +1,21 @@
 import { Fragment } from "react";
 import Hero from "./components/hero";
-import About from "./components/about";
 import Speakers from "./components/speakers";
+import Ticket from "./components/ticket";
 import CallForSponsors from "./components/call-for-sponsors";
 import CallForMediaPartners from "./components/call-for-media-partners";
+import Support from "./components/support";
 
 const Pdd2026 = () => {
   return (
-    <Fragment>
+    <div className="space-y-16 md:space-y-24">
       <Hero />
-      <About />
+      <Ticket />
       <Speakers />
-      {/* <Proposal /> */}
       <CallForSponsors />
+      <Support />
       <CallForMediaPartners />
-    </Fragment>
+    </div>
   );
 };
 

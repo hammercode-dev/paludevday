@@ -1,6 +1,19 @@
 const EMAIL = "paludevday@gmail.com";
-const REGISTRATION_URL = "https://tally.so/r/pbyyyV";
 const PROPOSAL_FILE = "/assets/proposal/pdd2026-proposal.pdf";
+
+const EVENT_LOCATION = "Gedung Kesenian Universitas Tadulako";
+const EVENT_DATE = "7th February 2026";
+
+const REGISTRATION_URL = "https://tally.so/r/pbyyyV";
+const REGISTRATION_PRICE = "Rp 50.000";
+const REGISTRATION_BENEFITS = [
+  "Full access to all sessions",
+  "AI learning program access",
+  "Cloud infrastructure credits",
+  "Networking opportunities",
+  "Event merchandise",
+  "Certificate of participation",
+];
 
 const MEDIA_PARTNER_SUBJECT = "Media Partnership Inquiry - PDD 2026";
 const MEDIA_PARTNER_BODY = `Hello PDD 2026 Team,
@@ -51,8 +64,12 @@ Thank you!`;
 
 export {
   EMAIL,
-  REGISTRATION_URL,
   PROPOSAL_FILE,
+  EVENT_DATE,
+  EVENT_LOCATION,
+  REGISTRATION_URL,
+  REGISTRATION_PRICE,
+  REGISTRATION_BENEFITS,
   MEDIA_PARTNER_SUBJECT,
   MEDIA_PARTNER_BODY,
   SPONSOR_SUBJECT,
