@@ -1,7 +1,7 @@
 const EMAIL = "paludevday@gmail.com";
 const PROPOSAL_FILE = "/assets/proposal/pdd2026-proposal.pdf";
 
-const EVENT_LOCATION = "Gedung Kesenian Universitas Tadulako";
+const EVENT_LOCATION = "Gedung Kesenian Palu";
 const EVENT_DATE = "7th February 2026";
 
 const REGISTRATION_URL = "https://tally.so/r/pbyyyV";
