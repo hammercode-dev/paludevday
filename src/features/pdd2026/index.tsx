@@ -1,4 +1,3 @@
-import { Fragment } from "react";
 import Hero from "./components/hero";
 import Speakers from "./components/speakers";
 import Ticket from "./components/ticket";
