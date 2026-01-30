@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import { navLists } from "@/constants";
 import Image from "next/image";
 import Link from "next/link";
+import { cn } from "@/lib/utils";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -25,9 +26,10 @@ const Navbar = () => {
 
   return (
     <div
-      className={`fixed top-0 z-30 w-full transition-all ${
-        isScrolled ? "bg-primaryBlack-800" : "bg-opacity-0"
-      } duration-300 max-md:hidden`}
+      className={cn(
+        "fixed top-0 z-30 w-full bg-transparent transition-all duration-300 max-md:hidden",
+        isScrolled && "backdrop-blur-md"
+      )}
     >
       <div className="mx-auto max-w-6xl p-5">
         <nav className="flex items-center justify-between">
@@ -45,7 +47,7 @@ const Navbar = () => {
           <ul className="flex items-center gap-6">
             {navLists.map((nav) => (
               <Link key={nav.id} href={nav.navigate_url}>
-                <li className="group text-pdd-light hover:text-pdd-purple relative cursor-pointer transition-colors duration-300">
+                <li className="group text-pdd-light hover:text-pdd-purple relative cursor-pointer font-medium transition-colors duration-300">
                   {nav.name}
                 </li>
               </Link>
