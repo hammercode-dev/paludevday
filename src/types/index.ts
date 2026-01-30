@@ -56,7 +56,6 @@ export type Sponsor = {
 export type SponsorTier = {
   name: string;
   color: string;
-  gradient: string;
   glow: string;
   sponsors: Sponsor[];
 };

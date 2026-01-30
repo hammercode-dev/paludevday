@@ -5,7 +5,6 @@ const SPONSOR_TIERS: SponsorTier[] = [
   {
     name: "Platinum",
     color: "text-purple-400",
-    gradient: "from-purple-500/30 to-blue-500/30",
     glow: "from-purple-600 via-blue-500 to-purple-600",
     sponsors: [
       { name: "Bank Sulteng", logo: "/assets/sponsors/bank-sulteng.png" },
@@ -16,7 +15,6 @@ const SPONSOR_TIERS: SponsorTier[] = [
   {
     name: "Silver",
     color: "text-gray-300",
-    gradient: "from-gray-400/20 to-gray-500/20",
     glow: "from-gray-400 via-gray-300 to-gray-400",
     sponsors: [
       { name: "Bisso", logo: "/assets/sponsors/bisso.png" },
@@ -29,14 +27,12 @@ const SPONSOR_TIERS: SponsorTier[] = [
   {
     name: "Bronze",
     color: "text-amber-400",
-    gradient: "from-amber-500/20 to-orange-500/20",
     glow: "from-amber-500 via-orange-500 to-amber-500",
     sponsors: [],
   },
   {
     name: "Supporting Partners",
     color: "text-emerald-400",
-    gradient: "from-emerald-500/20 to-teal-500/20",
     glow: "from-emerald-500 via-teal-500 to-emerald-500",
     sponsors: [
       { name: "HMTI UNTAD", logo: "/assets/sponsors/hmti-untad.png" },
