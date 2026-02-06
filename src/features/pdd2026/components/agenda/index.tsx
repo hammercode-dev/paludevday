@@ -26,13 +26,15 @@ const Agenda = () => {
             >
               <div className="absolute -inset-1 rounded-3xl bg-linear-to-r from-purple-600 via-blue-500 to-purple-600 opacity-5 blur-2xl transition duration-500 group-hover:opacity-20" />
 
-              <div className="bg-pdd-dark-blue flex w-fit items-center gap-1 rounded-lg px-2 py-1 font-mono text-sm">
+              <div className="bg-pdd-dark-blue flex w-fit items-center gap-1 rounded-lg px-2 py-1 font-mono text-xs md:text-sm">
                 <ClockIcon /> {agenda.time} (WITA)
               </div>
               <div className="space-y-1">
-                <h3 className="text-xl font-semibold">{agenda.activity}</h3>
+                <h3 className="text-lg font-semibold md:text-xl">
+                  {agenda.activity}
+                </h3>
                 {agenda.speaker && (
-                  <p className="inline-flex items-center gap-2">
+                  <p className="inline-flex items-center gap-2 text-sm md:text-base">
                     <UsersIcon /> {agenda.speaker}
                   </p>
                 )}
