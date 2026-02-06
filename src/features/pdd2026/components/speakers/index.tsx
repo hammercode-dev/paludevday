@@ -11,7 +11,7 @@ const colorVariants = [
 
 const Speakers = () => {
   return (
-    <div id="speakers" className="w-full">
+    <div id="speakers" className="w-full scroll-mt-32">
       <div className="mx-auto max-w-7xl space-y-12 px-5">
         <div className="mb-12 text-center">
           <h2 className="mb-4 text-3xl font-bold md:text-5xl">
