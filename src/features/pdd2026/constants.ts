@@ -62,6 +62,39 @@ LinkedIn Profile (optional):
 
 Thank you!`;
 
+const EVENT_AGENDA = [
+  {
+    time: "08.00 - 08.40",
+    activity: "Registrasi Peserta",
+    speaker: null,
+  },
+  {
+    time: "08.45 - 08.50",
+    activity: "Pembukaan Acara",
+    speaker: "Lara (MC)",
+  },
+  {
+    time: "08.55 - 10.30",
+    activity: "Sambutan",
+    speaker: "Juan (Ketua Panitia), Tamu Undangan",
+  },
+  {
+    time: "10.35 - 10.50",
+    activity: "Showcase Pemateri",
+    speaker: "Anugrah Aidin Yotolembah",
+  },
+  {
+    time: "10.55 - 13.10",
+    activity: "Workshop",
+    speaker: "Anugrah Aidin Yotolembah",
+  },
+  {
+    time: "13.15 - Selesai",
+    activity: "Penutupan Acara",
+    speaker: "Lara (MC), Kepanitiaan",
+  },
+];
+
 export {
   EMAIL,
   PROPOSAL_FILE,
@@ -76,4 +109,5 @@ export {
   SPONSOR_BODY,
   PROPOSAL_SUBJECT,
   PROPOSAL_BODY,
+  EVENT_AGENDA,
 };

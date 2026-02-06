@@ -4,6 +4,7 @@ import Ticket from "./components/ticket";
 import CallForSponsors from "./components/call-for-sponsors";
 import CallForMediaPartners from "./components/call-for-media-partners";
 import Support from "./components/support";
+import Agenda from "@/features/pdd2026/components/agenda";
 
 const Pdd2026 = () => {
   return (
@@ -14,6 +15,7 @@ const Pdd2026 = () => {
       <CallForSponsors />
       <Support />
       <CallForMediaPartners />
+      <Agenda />
     </div>
   );
 };
