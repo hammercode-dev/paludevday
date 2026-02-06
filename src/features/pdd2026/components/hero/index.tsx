@@ -8,7 +8,7 @@ const Hero = () => {
         <div className="group relative mx-auto w-fit">
           <div className="pdd2026-gradient absolute -inset-0.5 rounded-full opacity-75 blur-sm transition-opacity duration-300 group-hover:opacity-100" />
           <span className="pdd2026-gradient relative flex items-center rounded-full px-5 py-2.5 text-sm leading-none font-bold text-white shadow-lg transition-all duration-300 group-hover:scale-105">
-            Coming Soon
+            Tomorrow!
           </span>
         </div>
 
