@@ -7,10 +7,10 @@ const SPONSOR_TIERS: SponsorTier[] = [
     color: "text-purple-400",
     glow: "from-purple-600 via-blue-500 to-purple-600",
     sponsors: [
-      { name: "Bank Sulteng", logo: "/assets/sponsors/bank-sulteng.png" },
       { name: "Dicoding", logo: "/assets/sponsors/dicoding.png" },
       { name: "IDCloudHost", logo: "/assets/sponsors/idcloudhost.png" },
       { name: "OJK", logo: "/assets/sponsors/ojk-sekawan.png" },
+      { name: "Bank Sulteng", logo: "/assets/sponsors/bank-sulteng.png" },
       { name: "CPM", logo: "/assets/sponsors/cpm-brm.png" },
     ],
   },
