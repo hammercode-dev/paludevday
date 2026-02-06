@@ -10,6 +10,8 @@ const SPONSOR_TIERS: SponsorTier[] = [
       { name: "Bank Sulteng", logo: "/assets/sponsors/bank-sulteng.png" },
       { name: "Dicoding", logo: "/assets/sponsors/dicoding.png" },
       { name: "IDCloudHost", logo: "/assets/sponsors/idcloudhost.png" },
+      { name: "OJK", logo: "/assets/sponsors/ojk-sekawan.png" },
+      { name: "CPM", logo: "/assets/sponsors/cpm-brm.png" },
     ],
   },
   {
@@ -127,12 +129,12 @@ const Support = () => {
                         />
 
                         <div className="relative flex h-full flex-col items-center justify-center gap-4">
-                          <div className="flex h-24 w-full items-center justify-center rounded-xl p-4 transition-all duration-300 md:h-28">
+                          <div className="flex h-20 w-full items-center justify-center rounded-xl transition-all duration-300 md:h-24">
                             <Image
                               src={sponsor.logo}
                               alt={sponsor.name}
                               width={200}
-                              height={112}
+                              height={120}
                               className="max-h-full max-w-full object-contain drop-shadow-2xl filter transition-all duration-300 group-hover:scale-110"
                             />
                           </div>
