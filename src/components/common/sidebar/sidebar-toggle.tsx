@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { ListIcon } from "@phosphor-icons/react/dist/ssr";
 
 type SidebarToggleProps = {
@@ -32,12 +33,14 @@ const SidebarToggle = ({ setShowSidebar }: SidebarToggleProps) => {
         isScrolled && "bg-opacity-100"
       } border-b-primaryBlack-800 border-b transition-colors duration-300 md:hidden`}
     >
-      <Image
-        src="/assets/logos/ic_pdd26.svg"
-        alt="pdd-2024-logo"
-        width={36}
-        height={36}
-      />
+      <Link href="/">
+        <Image
+          src="/assets/logos/ic_pdd26.svg"
+          alt="pdd-2024-logo"
+          width={36}
+          height={36}
+        />
+      </Link>
       <button
         className="rounded-md border border-white/60 px-2 py-1"
         onClick={() => setShowSidebar(true)}
