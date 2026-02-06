@@ -85,7 +85,10 @@ const MEDIA_PARTNERS: MediaPartner[] = [
 
 const Support = () => {
   return (
-    <section id="support" className="relative scroll-mt-32 overflow-hidden">
+    <section
+      id="support"
+      className="relative scroll-mt-28 overflow-hidden md:scroll-mt-32"
+    >
       <div className="mx-auto max-w-6xl space-y-16 px-5">
         <div className="space-y-4 text-center">
           <h2 className="text-4xl font-bold tracking-tight md:text-5xl lg:text-6xl">
