@@ -7,7 +7,7 @@ const Agenda = () => {
       <div className="mx-auto max-w-6xl space-y-16 px-5">
         <div className="space-y-4 text-center">
           <h2 className="text-4xl font-bold tracking-tight md:text-5xl lg:text-6xl">
-            Our <span className="pdd2026-gradient-text">Agenda</span>
+            Event <span className="pdd2026-gradient-text">Agenda</span>
           </h2>
           <p className="text-pdd-light/70 mx-auto max-w-2xl text-lg">
             Explore sessions and speakers throughout the event, from people who
