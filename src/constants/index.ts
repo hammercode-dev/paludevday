@@ -11,6 +11,11 @@ export const navLists: NavList[] = [
     name: "Support",
     navigate_url: "#support",
   },
+  {
+    id: 3,
+    name: "Agenda",
+    navigate_url: "#agenda",
+  },
 ];
 
 export const speakerLists: SpeakerList[] = [
